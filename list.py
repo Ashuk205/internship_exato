@@ -1,0 +1,20 @@
+# marks = [1,2,3,4,5]
+# # print(marks)
+# # print(type(marks))
+# # print(marks[0])
+# # print(marks[1])
+# # print(marks[2])
+# print(marks[-3])
+# print(marks[len(marks)-3])
+# print(marks[5-3])
+# print(marks[2])
+
+l = [1,2,4,6]
+print(l)
+# l.append(7)
+# l.sort(reverse=True)
+# l.reverse()
+# print(l.index(1))
+# print(l.count(1))
+# l.insert(1, 899)
+print(l)

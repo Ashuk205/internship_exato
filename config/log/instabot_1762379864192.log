@@ -1,0 +1,14 @@
+2024-05-27 14:24:06,616 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2024-05-27 14:24:06,616 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from C:\Users\ashut\AppData\Local\Programs\Python\Python312\Lib\site-packages\instabot\bot\bot.py
+2024-05-27 14:24:06,617 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2024-05-27 14:24:17,684 - instabot version: 0.117.0 (api) - WARNING - HTTPSConnectionPool(host='i.instagram.com', port=443): Max retries exceeded with url: /api/v1/accounts/get_prefill_candidates/ (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000019A5912E3F0>: Failed to resolve 'i.instagram.com' ([Errno 11001] getaddrinfo failed)"))
+2024-05-27 14:24:19,049 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2024-05-27 14:24:19,842 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2024-05-27 14:24:20,859 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2024-05-27 14:24:21,861 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2024-05-27 14:24:21,861 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"The password you entered is incorrect. Please try again.","status":"fail","error_title":"Incorrect password","buttons":[{"title":"OK","action":"dismiss"}],"invalid_credentials":true,"exception_name":"UserInvalidCredentials","error_type":"bad_password"}'
+2024-05-27 14:24:21,861 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2024-05-27 14:24:21,862 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: The password you entered is incorrect. Please try again.
+2024-05-27 14:24:21,863 - instabot version: 0.117.0 (api) - INFO - Error type: bad_password
+2024-05-27 14:24:21,864 - instabot version: 0.117.0 (api) - ERROR - Failed to login go to instagram and change your password
+2024-05-27 14:24:21,865 - instabot version: 0.117.0 (api) - INFO - Username or password is incorrect.
